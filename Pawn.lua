@@ -17,9 +17,6 @@ PawnVersion = 2.1308
 -- 5. Later calls to MoneyFrame_Update fail due to taint
 PawnTempBlockShoppingTooltipUpdates = VgerCore.IsMidnight
 
--- Remove this when 12.0's tooltip secret taint bugs are fixed.
-PawnTempWrapWorldQuestTooltipResize = VgerCore.IsMidnight
-
 -- Pawn requires this version of VgerCore:
 local PawnVgerCoreVersionRequired = 1.20
 
